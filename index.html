@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener in PHP | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconsout Link for Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="#" autocomplete="off">
+            <input type="text" spellcheck="false" name="full_url" placeholder="Enter or paste a long url" required>
+            <i class="url-icon uil uil-link"></i>
+            <button>Shorten</button>
+        </form>
+        <div class="count">
+            <span>Total Links:<span>10</span>& Total Clicks:<span>140</span></span>
+            <a href="#">Clear All</a>
+        </div>
+        <div class="urls-area">
+            <div class="title">
+                <li>Shorten URL</li>
+                <li>Original URL</li>
+                <li>Clicks</li>
+                <li>Action</li>
+            </div>
+            <div class="data">
+                <li><a href="#">example.com/xyz234</a></li>
+                <li>https://www.codechef.com/CVTA2021/submit/CODVNUMPOW</li>
+                <li>16</li>
+                <li><a href="#">Delete</a></li>
+            </div>
+        </div>
+    </div>
+
+    <div class="blur-effect"></div>
+    <div class="popup-box">
+        <div class="info-box">Your short link is ready. You can also edit your short link now but can't edit once you saved it.</div>
+        <form action="#" autocomplete="off">
+            <label>Edit your shorten url</label>
+            <input type="text" class="shorten-url" spellcheck="false" required>
+            <i class="copy-icon uil uil-copy-alt"></i>
+            <button>Save</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
